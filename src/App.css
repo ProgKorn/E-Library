@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 1.6vw;
+}
+
+.left-box {
+  display: flex;
+  background: rgb(36, 65, 97);
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+  overflow: hidden;
+  color: white;
+  font-size: 1.6vw;
+}
+.right-box {
+  display: flex;
+  background: rgb(255, 255, 255);
+  position: relative;
+  margin-left: 50vw;
+  height: 100vh;
+  width: 50vw;
+  overflow: hidden;
+  color: white;
+  font-size: 1.6vw;
+}
+.blue-btn {
+  display: flex;
+  background: rgb(255, 0, 140);
+  position: relative;
+  height: 6vh;
+  width: 10vw;
+  margin-top: 80vh;
+  margin-left: 30vw;
+  border-radius: 5vh;
+  justify-content: center;
+  align-content: center;
+
+  overflow: hidden;
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+.white-btn {
+  display: flex;
+  background: rgb(0, 255, 255);
+  position: relative;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 5vh;
+  margin-left: 8vw;
+  border-radius: 5vh;
+  justify-content: center;
+  align-content: center;
+
+  overflow: hidden;
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+ 
+  position: absolute;
+  height: 60vh;
+  width: 40vw;
+  margin-top: 10vh;
+  margin-left: 5vw;
+
+  justify-content: center;
+  align-content: center;
+
+  overflow: hidden;
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
