@@ -62,6 +62,7 @@ function RouteFunc () {ui
 function Main() {
   return (
     <main>
+    <div className ="body">
       <div className="left-box">
         
        <div className="logo-container">
@@ -85,6 +86,7 @@ function Main() {
           </div>
 
         </div>
+        </div>
 
     </main>
   );
@@ -95,10 +97,10 @@ function Register() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            RegHOME
+            SIGN UP
           </Link>
 
         </div>
@@ -115,10 +117,10 @@ function AccountDetails() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            adminHOME
+            HOME
           </Link>
 
         </div>
@@ -135,10 +137,10 @@ function Catalogue() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            managerHOME
+            HOME
           </Link>
 
         </div>
@@ -156,10 +158,10 @@ function History() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blut-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
@@ -175,10 +177,10 @@ function GeneralHistory() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
@@ -194,10 +196,10 @@ function LibraryManagement() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
@@ -213,10 +215,10 @@ function BookManagement() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
@@ -232,10 +234,10 @@ function UserManagement() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
@@ -251,10 +253,10 @@ function BookRequest() {
     <main>
       <div className="box">
 
-       <div className="homeBtn">
+       <div className="blue-btn">
 
           <Link to="/">
-            staffnHOME
+            HOME
           </Link>
 
         </div>
